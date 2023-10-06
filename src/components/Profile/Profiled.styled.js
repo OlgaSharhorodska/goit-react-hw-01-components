@@ -1,4 +1,3 @@
-import React from 'react';
 import styled from 'styled-components';
 
 export const CardItem = styled.div`
@@ -21,8 +20,9 @@ export const CardItem = styled.div`
   ul {
     display: flex;
     align-items: center;
-    height: 244px;
+    height: 84px;
     background-color: rgb(226, 226, 226);
+    padding: 0px;
 
     li {
       display: flex;
