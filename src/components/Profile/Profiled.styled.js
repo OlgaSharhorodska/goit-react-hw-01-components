@@ -1,20 +1,20 @@
 import styled from 'styled-components';
 
 export const CardItem = styled.div`
-  background-color: white;
-  width: 500px;
+  background-color: rgba(226,226,226,0.3);
+  border-radius: 4%;
+  width: 350px;
   margin: 20px auto;
-  margin-bottom: 50px;
 
   div {
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 
     img {
-      width: 200px;
-      margin: 50px;
+      width: 150px;
+      margin: 30px;
       background-color: rgb(235, 180, 139);
-      border-radius: 50%;
+      border-radius: 20%;
     }
   }
   ul {
@@ -36,15 +36,13 @@ export const CardItem = styled.div`
 `;
 
 export const UserName = styled.p`
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 800;
-  padding-bottom: 10px;
 `;
 
 export const TagLocation = styled.p`
   font-size: 20px;
   font-weight: 400;
-  padding-bottom: 10px;
 `;
 
 export const Label = styled.span`
